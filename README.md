@@ -7,6 +7,54 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## About Task
+
+This is a PHP coding test or assessment assigned to me by Scnip and is been properly done using PHP(Laravel Framework). Before this code base can be successfully run on locally/local machine, below few things has to be in place.
+
+1. One must have installed/configured PHP on the machine/system directly or using PHP client like Laragon or Herd
+
+2. Composer must have been installed and well configured
+
+3. Laravel must have been installed, at least ^8
+
+Laravel framework is used for this project because of it's accessibility, how powerful it is, and amazing tools and built-in libraries that has been put in place for for large and robust applications.
+
+## Steps to successfully clone and run the assessment locally
+
+#### Step 1: Clone the project by opening the terminal and run below command
+```bash
+git clone git@github.com:Abdul-ahmed/scnip-assessment.git
+```
+
+#### Step 2: Open the cloned project
+```bash
+cd scnip-assessment
+```
+
+#### Step 3: Copy .env.example to .env
+```bash
+php -r "file_exists('.env') || copy('.env.example', '.env');"
+```
+
+#### Step 4: Install composer.json
+```bash
+composer install
+```
+
+#### Step 5: Generate the encrypted APP_KEY
+```bash
+php artisan key:generate
+```
+
+#### Step 6: Open project with any convenient TextEditor and navigate to see all available routes/endpoints
+```bash
+routes/api.php
+```
+#### Or run below command in the project dir to list out all routes
+```bash
+php artisan route:list
+```
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
