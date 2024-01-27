@@ -55,6 +55,15 @@ routes/api.php
 php artisan route:list
 ```
 
+#### Step 7: Run the project or any other known convenient way
+```bash
+php artisan serve
+```
+
+#### Good to test with any HTTP client software you're convenient with e.g. Postman
+
+### Thank you :-).
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
