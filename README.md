@@ -1,3 +1,5 @@
+<p align="center"><a href="https://www.scnip.com/" target="_blank"><img src="https://www.scnip.com/medias/images/logo-light.png" alt="Scnip Logo"></a></p>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -9,13 +11,13 @@
 
 ## About Task
 
-This is a PHP coding test or assessment assigned to me by Scnip and is been properly done using PHP(Laravel Framework). Before this code base can be successfully run on locally/local machine, below few things has to be in place.
+This is a PHP coding test or assessment assigned to me by Scnip and is been properly done using PHP(Laravel Framework) and wrapped as an API. Before this code base can be successfully run on locally/local machine, below few things has to be in place.
 
 1. One must have installed/configured PHP on the machine/system directly or using PHP client like Laragon or Herd
 
 2. Composer must have been installed and well configured
 
-3. Laravel must have been installed, at least ^8
+3. Laravel must have been installed, at least ^8.x and above
 
 Laravel framework is used for this project because of it's accessibility, how powerful it is, and amazing tools and built-in libraries that has been put in place for for large and robust applications.
 
@@ -62,7 +64,7 @@ php artisan serve
 
 #### Good to test with any HTTP client software you're convenient with e.g. Postman
 
-### Thank you :-).
+#### Thank you :-)
 
 ## About Laravel
 
